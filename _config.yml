@@ -5,7 +5,8 @@ description: Written by ChemE grad students
 locale: en_US
 logo: xekr/irmof1_viz.png
 search: true
-url: http://localhost:4000
+# url: http://localhost:4000
+url: http://berkeleycheme.github.io/
 
 # Jekyll configuration
 
