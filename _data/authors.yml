@@ -10,11 +10,9 @@ billy_rick:
   google:
     plus: BillyRick
 
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
-  avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
-  google:
-    plus: CorneliusFiddlebone
+cory_simon:
+  name: Cory Simon
+  email: CoryMSimon@gmail.com
+  bio: "PhD candidate"
+  avatar: corysimon.jpg
+  twitter: CoryMSimon

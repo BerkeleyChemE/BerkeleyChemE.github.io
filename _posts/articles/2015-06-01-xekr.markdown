@@ -2,9 +2,13 @@
 layout: post
 comments: true
 title:  "What are the best materials to separate a Xe/Kr mixture?"
+excerpt: "Mathematical modeling, molecular simulations, and machine learning to identify nanoporous materials for separating a mixture of xenon and krypton."
+categories: articles
 date:   2015-06-01
-image: xekr/feature.png
-author: Cory Simon
+image: 
+    feature: xekr/feature.png
+share: true
+author: cory_simon
 ---
 
 The noble gases xenon (Xe) and krypton (Kr) have several applications. Xenon is used as an anesthetic and for imaging in the health industry and as a satellite propellant in the space industry. Both xenon and krypton are used in lighting, in lasers, in double glazing for heat-insulated windows, and as carrier gases in analytical chemistry. 
@@ -20,18 +24,27 @@ Separating the Xe/Kr mixture by distillation at such low temperatures is very en
 
 The most selective materials are *nanoporous* materials, which have nano-sized pores so that just a few molecules can fit inside. The figure below shows an example nanoporous material, IRMOF-1. A single gram of nanoporous material has as much internal surface area as a football field! Xenon and krypton are recruited into the material because of van der Waals interactions with the walls of the nanopores; because xenon has a larger electron cloud than krytpon, we expect most materials to prefer xenon.
 
-<img src="{{ '/assets/img/xekr/irmof1_viz.png' | prepend: site.baseurl }}" alt=""> 
+{:.center}
+<figure>
+	<img src="/images/xekr/irmof1_viz.png" alt="image">
+</figure>
 
 Advanced nanoporous materials are highly tunable. For example, consider metal-organic frameworks (MOFs). MOFs are synthesized by combining organic molecules called linkers with metals or metal clusters that serve as nodes; the linkers and metal nodes self-assemble to form a 3D coordination network. For example, the linker and metal node used to synthesize IRMOF-1 are below.
 
-<img src="{{ '/assets/img/xekr/linker.png' | prepend: site.baseurl }}" alt=""> 
-<img src="{{ '/assets/img/xekr/node.png' | prepend: site.baseurl }}" alt=""> 
+{:.center}
+<figure>
+	<img src="/images/xekr/linker.png" alt="image">
+	<img src="/images/xekr/node.png" alt="image">
+</figure>
 
 By changing the linker and metal node in MOFs, one can in principle synthesize an unlimited number of different materials. To date, over 10,000 different MOFs have been synthesized in the lab!
 
 This tunable chemistry leaves us with many options of nanoporous materials to synthesize and test for Xe/Kr separations. Because of limited resources and time, synthesizing all of these materials in the lab and measuring their Xe/Kr adsorption is infeasible. A much faster and cost-effective route to materials testing is to use molecular simulations to predict what materials will be the most selective for xenon. For example, the figure below shows the simulated xenon and krypton adsorption isotherms (how much gas is adsorbed at different pressures) in IRMOF-1, which agree well with the experimentally measured isotherms.
 
-<img src="{{ '/assets/img/xekr/IRMOF1.png' | prepend: site.baseurl }}" alt=""> 
+{:.center}
+<figure>
+	<img src="/images/xekr/IRMOF1.png" alt="image">
+</figure>
 
 In our article in Chemistry of Materials, we used mathematical models, molecular simulations, and machine learning to identify the best materials for Xe/Kr separations out of a database of over 600,000 nanoporous materials. 
 
@@ -41,16 +54,25 @@ Molecular simulations are computationally expensive. By using a random forest, w
 
 The most lucid result of our study is a list of top candidates for Xe/Kr separations. The two most selective materials in the database are a MOF and aluminophosphate zeolite analogue, both of which have already been synthesized by not yet tested for Xe/Kr separations. We hope our computational study will incite the characterization of the top materials that we identified.
 
-<img src="{{ '/assets/img/xekr/KAXQIL_viz.png' | prepend: site.baseurl }}" alt=""> 
-<img src="{{ '/assets/img/xekr/JAVTAC_correct.png' | prepend: site.baseurl }}" alt=""> 
+{:.center}
+<figure>
+	<img src="/images/xekr/KAXQIL_viz.png" alt="image">
+	<img src="/images/xekr/JAVTAC_correct.png" alt="image">
+</figure>
 
 With the large volume of data that we generated, we can identify data-driven guidelines for synthezing a good material for Xe/Kr separations. For example, if we look at the relationship between the selectivity for Xe and pore size, we see that materials with large pores are poor-performing materials. The best materials have an optimal pore size of ~0.45 nanometers, but this pore size does not guarantee a good material; other variables are at play.
 
-<img src="{{ '/assets/img/xekr/selectivity_for_blog.png' | prepend: site.baseurl }}" alt=""> 
+{:.center}
+<figure>
+	<img src="/images/xekr/selectivity_for_blog.png" alt="image">
+</figure>
 
 We took a look at the binding sites in the most selective materials. The most selective binding sites exhibit a striking diversity of geometries: tubes, pockets, cages, and rings of chemical moieties can form a binding site. Below is a selection of the binding sites in the most selective materials, with a xenon atom (teal) at its minimum energy position inside the pore.
 
-<img src="{{ '/assets/img/xekr/bindingsites.png' | prepend: site.baseurl }}" alt=""> 
+{:.center}
+<figure>
+	<img src="/images/xekr/bindingsites.png" alt="image">
+</figure>
 
 The diversity of these binding sites and the lack of a simple, obvious design rule for synthesizing a good material for Xe/Kr separations underscores the importance of using computer simulations to screen these databases of materials.
 
