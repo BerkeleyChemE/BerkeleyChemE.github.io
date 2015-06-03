@@ -89,4 +89,4 @@ The diversity of these binding sites and the lack of a simple, obvious design ru
 
 Nanoporous materials have several other potential applications, such as natural gas and hydrogen storage, carbon capture, chemical sensors, drug delivery, and catalysis. For each of these applications, computer simulations can be used to screen these databases of materials to focus experimental efforts on the top candidates and elucidate design rules.
 
-Reference: [C. Simon](www.corymsimon.com), R. Mercado, S. Schnell, [B. Smit](http://www.cchem.berkeley.edu/molsim/personal_pages/berend/), [M. Haranczyk](http://www.maciejharanczyk.info/). "What are the best materials to separate a Xe/Kr mixture." Chemistry of Materials. (2015) [Link](http://dx.doi.org/10.1021/acs.chemmater.5b01475)
+Reference: [C. Simon](http://www.corymsimon.com), R. Mercado, S. Schnell, [B. Smit](http://www.cchem.berkeley.edu/molsim/personal_pages/berend/), [M. Haranczyk](http://www.maciejharanczyk.info/). "What are the best materials to separate a Xe/Kr mixture." Chemistry of Materials. (2015) [Link](http://dx.doi.org/10.1021/acs.chemmater.5b01475)
