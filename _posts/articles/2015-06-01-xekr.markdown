@@ -18,6 +18,7 @@ Xenon and krypton are expensive because of their scarcity and difficulty to prod
 {:.center}
 <figure>
 	<img src="/images/xekr/noblegases.png" alt="image">
+    <figcaption>Fig 1. The noble gases Xe and Kr. For separation via cryogenic distillation, one exploits the difference in boiling points between Xe and Kr. For an adsorption-based separation, we seek to exploit the difference in size and van der Waals interactions with the walls of the porous material.</figcaption>
 </figure>
 
 Separating the Xe/Kr mixture by distillation at such low temperatures is very energy- and capital-intensive. Experiments have shown that an adsorption-based separation using porous materials at room temperature is a promising, less energy-demanding alternative to separate the Xe/Kr mixture. The idea behind an adsorption-based separation is for one gas species in the mixture to preferentially adsorb in the material, leaving the other gas species behind in the gas phase. When the material is saturated, we can then heat it to drive off the adsorbed gas, regenerating the material for another cycle.
@@ -27,14 +28,18 @@ The most selective materials are *nanoporous* materials, which have nano-sized p
 {:.center}
 <figure>
 	<img src="/images/xekr/irmof1_viz.png" alt="image">
+    <figcaption>Fig 2. The structure of metal-organic framework IRMOF-1.</figcaption>
 </figure>
 
 Advanced nanoporous materials are highly tunable. For example, consider metal-organic frameworks (MOFs). MOFs are synthesized by combining organic molecules called linkers with metals or metal clusters that serve as nodes; the linkers and metal nodes self-assemble to form a 3D coordination network. For example, the linker and metal node used to synthesize IRMOF-1 are below.
 
 {:.center}
 <figure>
-	<img src="/images/xekr/linker.png" alt="image">
+    (a)
 	<img src="/images/xekr/node.png" alt="image">
+    (b)
+	<img src="/images/xekr/linker.png" alt="image">
+    <figcaption>Fig 3. The molecular building blocks of IRMOF-1. (a) Zinc oxide metal clusters serve as nodes. (b) The organic linker 1,4-benzenedicarboxylate. </figcaption>
 </figure>
 
 By changing the linker and metal node in MOFs, one can in principle synthesize an unlimited number of different materials. To date, over 10,000 different MOFs have been synthesized in the lab!
@@ -44,6 +49,7 @@ This tunable chemistry leaves us with many options of nanoporous materials to sy
 {:.center}
 <figure>
 	<img src="/images/xekr/IRMOF1.png" alt="image">
+    <figcaption>Fig 4. Simulated and experimentally measured Xe and Kr adsorption isotherms in IRMOF-1. </figcaption>
 </figure>
 
 In our article in Chemistry of Materials, we used mathematical models, molecular simulations, and machine learning to identify the best materials for Xe/Kr separations out of a database of over 600,000 nanoporous materials. 
@@ -56,8 +62,11 @@ The most lucid result of our study is a list of top candidates for Xe/Kr separat
 
 {:.center}
 <figure>
+    (a)
 	<img src="/images/xekr/KAXQIL_viz.png" alt="image">
+    (b)
 	<img src="/images/xekr/JAVTAC_correct.png" alt="image">
+    <figcaption>Fig 5. The two most selective materials in our study are a MOF (a) and aluminophosphate zeolite analogue (b).</figcaption>
 </figure>
 
 With the large volume of data that we generated, we can identify data-driven guidelines for synthezing a good material for Xe/Kr separations. For example, if we look at the relationship between the selectivity for Xe and pore size, we see that materials with large pores are poor-performing materials. The best materials have an optimal pore size of ~0.45 nanometers, but this pore size does not guarantee a good material; other variables are at play.
@@ -65,6 +74,7 @@ With the large volume of data that we generated, we can identify data-driven gui
 {:.center}
 <figure>
 	<img src="/images/xekr/selectivity_for_blog.png" alt="image">
+    <figcaption>Fig 6. The relationship between selectivity for Xe and pore size. Each point in this scatter plot is a structure.</figcaption>
 </figure>
 
 We took a look at the binding sites in the most selective materials. The most selective binding sites exhibit a striking diversity of geometries: tubes, pockets, cages, and rings of chemical moieties can form a binding site. Below is a selection of the binding sites in the most selective materials, with a xenon atom (teal) at its minimum energy position inside the pore.
@@ -72,6 +82,7 @@ We took a look at the binding sites in the most selective materials. The most se
 {:.center}
 <figure>
 	<img src="/images/xekr/bindingsites.png" alt="image">
+    <figcaption>Fig 7. The Xe binding sites in the most selective structures. A xenon at its minimum energy position in the pore is shown in teal.</figcaption>
 </figure>
 
 The diversity of these binding sites and the lack of a simple, obvious design rule for synthesizing a good material for Xe/Kr separations underscores the importance of using computer simulations to screen these databases of materials.
