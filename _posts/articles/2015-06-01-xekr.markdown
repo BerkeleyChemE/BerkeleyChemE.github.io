@@ -23,7 +23,7 @@ Xenon and krypton are expensive because of their scarcity and difficulty to prod
 
 Separating the Xe/Kr mixture by distillation at such low temperatures is very energy- and capital-intensive. Experiments have shown that an adsorption-based separation using porous materials at room temperature is a promising, less energy-demanding alternative to separate the Xe/Kr mixture. The idea behind an adsorption-based separation is for one gas species in the mixture to preferentially adsorb in the material, leaving the other gas species behind in the gas phase. When the material is saturated, we can then heat it to drive off the adsorbed gas, regenerating the material for another cycle.
 
-The most selective materials are *nanoporous* materials, which have nano-sized pores so that just a few molecules can fit inside. The figure below shows an example nanoporous material, IRMOF-1. A single gram of nanoporous material can have as much internal surface area as a football field! Xenon and krypton are recruited into the material because of van der Waals interactions with the walls of the nanopores; because xenon has a larger electron cloud than krytpon, we expect most materials to prefer xenon. Some materials are reverse selective; these have pores that are too small for and thus exclude xenon but are large enough to accommodate krypton.
+The most selective materials are *nanoporous* materials, which have nano-sized pores so that just a few molecules can fit inside. Fig 2 shows an example nanoporous material, IRMOF-1. A single gram of nanoporous material can have as much internal surface area as a football field! Xenon and krypton are recruited into the material because of van der Waals interactions with the walls of the nanopores; because xenon has a larger electron cloud than krytpon, we expect most materials to prefer xenon. Some materials are reverse selective; these have pores that are too small for and thus exclude xenon but are large enough to accommodate krypton.
 
 {:.center}
 <figure>
@@ -31,7 +31,7 @@ The most selective materials are *nanoporous* materials, which have nano-sized p
     <figcaption>Fig 2. The structure of metal-organic framework IRMOF-1.</figcaption>
 </figure>
 
-Advanced nanoporous materials are highly tunable. For example, consider metal-organic frameworks (MOFs). MOFs are synthesized by combining organic molecules called linkers with metals or metal clusters that serve as nodes; the linkers and metal nodes self-assemble to form a 3D coordination network. For example, the linker and metal node used to synthesize IRMOF-1 are below.
+Advanced nanoporous materials are highly tunable. For example, consider metal-organic frameworks (MOFs). MOFs are synthesized by combining organic molecules called linkers with metals or metal clusters that serve as nodes; the linkers and metal nodes self-assemble to form a 3D coordination network. For example, the linker and metal node used to synthesize IRMOF-1 are shown in Fig 3.
 
 {:.center}
 <figure>
@@ -44,7 +44,7 @@ Advanced nanoporous materials are highly tunable. For example, consider metal-or
 
 By changing the linker and metal node in MOFs, one can in principle synthesize an unlimited number of different materials. To date, over 10,000 different MOFs have been synthesized in the lab!
 
-This tunable chemistry leaves us with many options of nanoporous materials to synthesize and test for Xe/Kr separations. Because of limited resources and time, synthesizing all of these materials in the lab and measuring their Xe/Kr adsorption is infeasible. A much faster and cost-effective route to materials testing is to use molecular simulations to predict what materials will be the most selective for xenon. For example, the figure below shows the simulated xenon and krypton adsorption isotherms (how much gas is adsorbed at different pressures) in IRMOF-1, which agree well with the experimentally measured isotherms.
+This tunable chemistry leaves us with many options of nanoporous materials to synthesize and test for Xe/Kr separations. Because of limited resources and time, synthesizing all of these materials in the lab and measuring their Xe/Kr adsorption is infeasible. A much faster and cost-effective route to materials testing is to use molecular simulations to predict what materials will be the most selective for xenon. For example, Fig 4 shows the simulated xenon and krypton adsorption isotherms (how much gas is adsorbed at different pressures) in IRMOF-1, which agree well with the experimentally measured isotherms.
 
 {:.center}
 <figure>
@@ -77,7 +77,7 @@ With the large volume of data that we generated, we can identify data-driven gui
     <figcaption>Fig 6. The relationship between selectivity for Xe and pore size. Each point in this scatter plot is a structure.</figcaption>
 </figure>
 
-We took a look at the binding sites in the most selective materials. The most selective binding sites exhibit a striking diversity of geometries: tubes, pockets, cages, and rings of chemical moieties can form a binding site. Below is a selection of the binding sites in the most selective materials, with a xenon atom (teal) at its minimum energy position inside the pore.
+We took a look at the binding sites in the most selective materials. The most selective binding sites exhibit a striking diversity of geometries: tubes, pockets, cages, and rings of chemical moieties can form a binding site. Fig 7 displays a selection of the binding sites in the most selective materials, with a xenon atom (teal) at its minimum energy position inside the pore.
 
 {:.center}
 <figure>
