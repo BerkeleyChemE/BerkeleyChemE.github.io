@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "What are the best materials to separate a Xe/Kr mixture?"
-excerpt: "Mathematical modeling, molecular simulations, and machine learning to identify nanoporous materials for separating a mixture of xenon and krypton."
+excerpt: "We used mathematical modeling, molecular simulations, and machine learning to identify nanoporous materials for separating an industrially relevant mixture of xenon and krypton."
 categories: articles
 date:   2015-06-01
 image: 
@@ -23,7 +23,7 @@ Xenon and krypton are expensive because of their scarcity and difficulty to prod
 
 Separating the Xe/Kr mixture by distillation at such low temperatures is very energy- and capital-intensive. Experiments have shown that an adsorption-based separation using porous materials at room temperature is a promising, less energy-demanding alternative to separate the Xe/Kr mixture. The idea behind an adsorption-based separation is for one gas species in the mixture to preferentially adsorb in the material, leaving the other gas species behind in the gas phase. When the material is saturated, we can then heat it to drive off the adsorbed gas, regenerating the material for another cycle.
 
-The most selective materials are *nanoporous* materials, which have nano-sized pores so that just a few molecules can fit inside. Fig 2 shows an example nanoporous material, IRMOF-1. A single gram of nanoporous material can have as much internal surface area as a football field! Xenon and krypton are recruited into the material because of van der Waals interactions with the walls of the nanopores; because xenon has a larger electron cloud than krytpon, we expect most materials to prefer xenon. Some materials are reverse selective; these have pores that are too small for and thus exclude xenon but are large enough to accommodate krypton.
+The most selective materials are *nanoporous* materials, which have nano-sized pores so that just a few molecules can fit inside. Fig 2 shows an example nanoporous material, IRMOF-1. A single gram of nanoporous material can have as much internal surface area as a football field! Xenon and krypton are recruited into the material because of van der Waals interactions with the walls of the nanopores; because xenon has a larger electron cloud than krypton, we expect most materials to prefer xenon. Some materials are reverse selective; these have pores that are too small for and thus exclude xenon but are large enough to accommodate krypton.
 
 {:.center}
 <figure>
@@ -35,10 +35,10 @@ Advanced nanoporous materials are highly tunable. For example, consider metal-or
 
 {:.center}
 <figure>
-    (a)
 	<img src="/images/xekr/node.png" alt="image">
-    (b)
+    (a)
 	<img src="/images/xekr/linker.png" alt="image">
+    (b)
     <figcaption>Fig 3. The molecular building blocks of IRMOF-1. (a) Zinc oxide metal clusters serve as nodes. (b) The organic linker 1,4-benzenedicarboxylate. </figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ This tunable chemistry leaves us with many options of nanoporous materials to sy
     <figcaption>Fig 4. Simulated and experimentally measured Xe and Kr adsorption isotherms in IRMOF-1. </figcaption>
 </figure>
 
-In our article in Chemistry of Materials, we used mathematical models, molecular simulations, and machine learning to identify the best materials for Xe/Kr separations out of a database of over 600,000 nanoporous materials. 
+In our [article](http://dx.doi.org/10.1021/acs.chemmater.5b01475) in Chemistry of Materials, we used mathematical models, molecular simulations, and machine learning to identify the best materials for Xe/Kr separations out of a database of over 600,000 nanoporous materials. 
 
 With such a large number of materials, the computational resources required to simulate Xe/Kr adsorption in each material become prohibitive. To expedite our computational testing of the entire database, we turned to an algorithm used in artificial intelligence, a random forest. A notable example of the success of random forests is the Kinect for Microsoft's video game console, XBox. From a real-time video feed of your body, the XBox Kinect detects and label your body parts in real-time so that your body movements can control the character in the video game. For the Kinect, a random forest was shown hundreds of thousands of examples of people in different positions, and it learned to recognize body parts from these training images. Analogously, we trained a random forest to recognize high-performing materials for Xe/Kr separations by showing it examples of high- and poor-performing materials for Xe/Kr separations.
 
@@ -62,14 +62,14 @@ The most lucid result of our study is a list of top candidates for Xe/Kr separat
 
 {:.center}
 <figure>
-    (a)
 	<img src="/images/xekr/KAXQIL_viz.png" alt="image">
-    (b)
+    (a)
 	<img src="/images/xekr/JAVTAC_correct.png" alt="image">
+    (b)
     <figcaption>Fig 5. The two most selective materials in our study are a MOF (a) and aluminophosphate zeolite analogue (b).</figcaption>
 </figure>
 
-With the large volume of data that we generated, we can identify data-driven guidelines for synthezing a good material for Xe/Kr separations. For example, if we look at the relationship between the selectivity for Xe and pore size, we see that materials with large pores are poor-performing materials. The best materials have an optimal pore size of ~0.45 nanometers, but this pore size does not guarantee a good material; other variables are at play.
+With the large volume of data that we generated, we can identify data-driven guidelines for synthesizing a good material for Xe/Kr separations. For example, if we look at the relationship between the selectivity for Xe and pore size, we see that materials with large pores are poor-performing materials. The best materials have a pore size of ~0.45 nanometers, but this pore size does not guarantee a good material; other variables are at play.
 
 {:.center}
 <figure>
@@ -82,7 +82,7 @@ We took a look at the binding sites in the most selective materials. The most se
 {:.center}
 <figure>
 	<img src="/images/xekr/bindingsites.png" alt="image">
-    <figcaption>Fig 7. The Xe binding sites in the most selective structures. A xenon at its minimum energy position in the pore is shown in teal.</figcaption>
+    <figcaption>Fig 7. The Xe binding sites in the most selective structures. A xenon atom at its minimum energy position in the pore is shown in teal.</figcaption>
 </figure>
 
 The diversity of these binding sites and the lack of a simple, obvious design rule for synthesizing a good material for Xe/Kr separations underscores the importance of using computer simulations to screen these databases of materials.
